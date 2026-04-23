@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cracha {
+    width: 280px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}
+
+.certo {
+    color: rgb(24, 116, 2);
+    font-weight: bold;
+}

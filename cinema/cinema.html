@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="cinema.css">
+</head>
+
+<body>
+    <h1>Cinema</h1>
+
+    <div id="filmes">
+        <div class="filme">
+            <h3>Homem-Aranha</h3>
+            <img class="img" src="Homem-Aranha.png">
+            <p>R$ 20</p>
+            <button data-nome="Homem-Aranha" data-preco="20">Adicionar</button>
+        </div>
+
+        <div class="filme">
+            <h3>Vingadores</h3>
+            <img class="img" src="Vingadores.png">
+            <p>R$ 25</p>
+            <button data-nome="Vingadores" data-preco="25">Adicionar</button>
+        </div>
+
+        <div class="filme">
+            <h3>Batman</h3>
+            <img class="img" src="Batman.png">
+            <p>R$ 18</p>
+            <button data-nome="Batman" data-preco="18">Adicionar</button>
+        </div>
+
+        <div class="filme">
+            <h3>Interestelar</h3>
+            <img class="img" src="Interestelar.png">
+            <p>R$ 22</p>
+            <button data-nome="Interestelar" data-preco="22">Adicionar</button>
+        </div>
+    </div>
+
+    <div class="carrinho">
+        <h2>Carrinho</h2>
+        <ul id="carrinho"></ul>
+        <h3>Total: R$ <span id="total">0</span></h3>
+    </div>
+
+    <script src="cinema.js"></script>
+</body>
+</html>
